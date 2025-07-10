@@ -1,0 +1,11 @@
+pandas #Version: 2.3.0
+numpy #Version: 2.2.6
+scikit-learn #Version: 1.6.1
+seaborn #Version: 0.13.2
+matplotlib #Version: 3.10.3
+mlflow #Version: 3.1.1
+shap #Version: 0.48.0
+streamlit #Version: 1.46.1
+imblearn #Version: 0.13.0
+joblib #Version: 1.5.1
+
