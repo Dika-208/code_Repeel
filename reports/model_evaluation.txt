@@ -1,0 +1,45 @@
+EVALUASI MODEL DIABETES
+==================================================
+
+JUMLAH MISSING VALUES PER KOLOM
+id                               0
+Pregnancies                      0
+Glucose                          0
+BloodPressure                    0
+SkinThickness                    0
+Insulin                          0
+BMI                              0
+DiabetesPedigreeFunction         0
+Age                              0
+Outcome                          0
+Prediksi_Model                 768
+Probabilitas_Tidak_Diabetes    768
+Probabilitas_Diabetes          768
+dtype: int64
+
+PEMROSESAN DATA (SMOTE)
+Menerapkan SMOTE untuk menangani imbalance class...
+Setelah SMOTE:
+Outcome
+1.0    500
+0.0    500
+Name: count, dtype: int64
+
+EVALUASI MODEL
+Akurasi: 0.8100
+Confusion Matrix:
+[[76 24]
+ [14 86]]
+Classification Report:
+              precision    recall  f1-score   support
+
+         0.0       0.84      0.76      0.80       100
+         1.0       0.78      0.86      0.82       100
+
+    accuracy                           0.81       200
+   macro avg       0.81      0.81      0.81       200
+weighted avg       0.81      0.81      0.81       200
+
+
+SELESAI
+Akurasi akhir model: 0.8100
